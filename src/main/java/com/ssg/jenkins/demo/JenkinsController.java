@@ -8,7 +8,7 @@ public class JenkinsController {
 
 
     @RequestMapping("/jenkins")
-    public String k8s(){
+    public String jenkins(){
         return "hello jenkins ssg";
     }
 }
